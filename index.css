@@ -1,0 +1,46 @@
+.card{
+    width: 368px;
+    margin: auto;
+    margin-top: 164px;
+    border-radius: 25px ;
+}
+
+.card-img-top{
+    padding: 16px;
+    height: 184px;
+    object-fit: cover;
+}
+
+.card-flex-container{
+    display: flex;
+}
+
+.card-heading, .card-title, .card-text, .card-footer{
+    font-family: 'Sora', sans-serif;
+}
+.card-heading{
+    margin-left: 16px; 
+    padding: 4px 16px 4px 16px;
+    font-family: 'Sora', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    border-radius: 20px;
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: 700;   
+}
+
+.card-text{
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.card-footer{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
